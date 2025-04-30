@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+}
+
+.Inicio {
+    height: 100vh;
+    background: linear-gradient(
+      to bottom,
+      #feb4cd 0%,
+      #feb4cd calc(50% - 1px),
+      black calc(50% - 1px),
+      black calc(50% + 3px),
+      #fff35f calc(50% + 1px),
+      #fff35f 100%
+    ); 
+}
+
+.Nosotros {
+    height: 70vh;
+    background-color: #fff35f;
+}
+
+.Galeria {
+    height: 100vh;
+    background: linear-gradient(
+      to bottom,
+      white 0%,
+      white calc(65% - 1px),
+      black calc(65% - 1px),
+      black calc(65% + 1px),
+      #ff6541 calc(65% + 1px),
+      #ff6541 100%
+    );
+  }
