@@ -33,6 +33,56 @@
           #ff6541 100%
         );
     }
+
+    .Precios {
+        height: 80vh;
+        display: grid;
+        grid-template-areas:"s1 s1 s2 s3 s4"
+                            "s5 s5 s2 s3 s4"
+                            "s6 s7 s7 s8 s8"
+                            "s6 s7 s7 s9 s9";
+        border: 1px solid black;
+    }
+
+    .caja {
+        border: 1px solid black;
+    }
+
+    .caja1 {
+        grid-area: s1;
+    }
+
+    .caja2 {
+        grid-area: s2;
+    }
+
+    .caja3 {
+        grid-area: s3;
+    }
+
+    .caja4 {
+        grid-area: s4;
+    }
+
+    .caja5 {
+        grid-area: s5;
+    }
+
+    .caja6 {
+        grid-area: s6;
+    }
+
+    .caja7 {
+        grid-area: s7;
+    }
+
+    .caja8 {
+        grid-area: s8;
+    }
+
+    .caja9 {
+        grid-area: s9;
+    }
     
     .Contacto {
         height: 90vh;
