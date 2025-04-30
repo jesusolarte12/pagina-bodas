@@ -50,10 +50,12 @@
 
     .caja1 {
         grid-area: s1;
+        background-color: #feb4cd;
     }
 
     .caja2 {
         grid-area: s2;
+        background-color: #fff35f;
     }
 
     .caja3 {
@@ -62,26 +64,32 @@
 
     .caja4 {
         grid-area: s4;
+        background-color: #0357ef;
     }
 
     .caja5 {
         grid-area: s5;
+        background-color: #feb4cd;
     }
 
     .caja6 {
         grid-area: s6;
+        background-color: #fff35f;
     }
 
     .caja7 {
         grid-area: s7;
+        background-color: black;
     }
 
     .caja8 {
         grid-area: s8;
+        background-color: #ff6541;
     }
 
     .caja9 {
         grid-area: s9;
+        background-color: #feb4cd;
     }
     
     .Contacto {
