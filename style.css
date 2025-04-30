@@ -31,4 +31,9 @@ body {
       #ff6541 calc(65% + 1px),
       #ff6541 100%
     );
-  }
+}
+
+.Contacto {
+    height: 90vh;
+    background-color: #feb4cd;
+}
