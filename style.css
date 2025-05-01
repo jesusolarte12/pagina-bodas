@@ -16,8 +16,32 @@
         ); 
     }
     
+    .barra-menu {
+        display: flex;
+        justify-content: flex-end;
+        gap: 100px;
+        padding: 20px;
+        font-weight: bold;
+        font-family: Arial, sans-serif;
+    }
+    
+    .barra-menu a {
+        text-decoration: none;
+        color: black;
+        font-size: 1.8rem;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+    }
+    
+    .icono-img {
+        width: 1em;
+        height: 1em;
+        object-fit: contain;
+    }
+    
     .Nosotros {
-        height: 70vh;
+        height: 100vh;
         background-color: #fff35f;
     }
     
