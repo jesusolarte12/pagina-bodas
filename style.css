@@ -8,14 +8,14 @@
         background: linear-gradient(
           to bottom,
           #feb4cd 0%,
-          #feb4cd calc(50% - 1px),
-          black calc(50% - 1px),
-          black calc(50% + 3px),
-          #fff35f calc(50% + 1px),
+          #feb4cd calc(60% - 1px),
+          black calc(60% - 1px),
+          black calc(60% + 3px),
+          #fff35f calc(60% + 1px),
           #fff35f 100%
         ); 
     }
-    
+
     .barra-menu {
         display: flex;
         justify-content: flex-end;
@@ -40,12 +40,39 @@
         height: 1em;
         object-fit: contain;
     }
+
+    .contenedor-inicio {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 97%;
+        text-align: center;
+    }
+    
+    .titulo-inicio {
+        font-size: 4rem;
+        font-weight: bold;
+        color: #0766ff;
+        font-family: 'Luckiest Guy', cursive;
+        line-height: 1.2;
+        z-index: 5;
+        letter-spacing: 4px;
+    }
+    
+    #pareja-grande-inicio {
+        width: 700px;
+        height: 1000px;
+        border-radius: 50% / 40%;
+        border: 3px solid black;
+        margin-top: -110px;
+    }
     
     .Nosotros {
         height: 100vh;
         background-color: #fff35f;
     }
-    
+
     .Galeria {
         height: 100vh;
         background: linear-gradient(
@@ -60,7 +87,7 @@
     }
 
     .Precios {
-        height: 100vh;
+        height: 80vh;
         display: grid;
         grid-template-areas:"s1 s1 s2 s3 s4"
                             "s5 s5 s2 s3 s4"
@@ -118,7 +145,31 @@
     }
     
     .Contacto {
-        height: 90vh;
+        height: 120vh;
         background-color: #feb4cd;
     }
+
+    .boton-chat{
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        margin: 15px;
+        background-color: yellow;
+        border: 2px solid black;
+        border-radius: 100px;
+        height: 150px;
+        width: 150px;
+        font-size: 35px;
+        font-weight: bold;
+        text-decoration: none;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .boton-chat p {
+        color: black;
+        text-align: center;
+        margin-top: 39%;
+    }
+    
 }
+
